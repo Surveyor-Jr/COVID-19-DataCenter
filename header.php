@@ -39,7 +39,7 @@
         <div class="sidebar-menu">
             <div class="sidebar-header">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/images/icon/logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="images/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="main-menu">
@@ -49,30 +49,29 @@
                             <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>STATISTICS</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="index.html">Zimbabwe</a></li>
-                                    <li><a href="index2.html">Global</a></li>
-                                    <li><a href="index3.html">Trending</a></li>
+                                    <li class="active"><a href="zimbabwe.php">Zimbabwe</a></li>
+                                    <li><a href="global.php">Global</a></li>
+                                    <li><a href="trending.php">Trending</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>NEWS
                                     </span></a>
                                 <ul class="collapse">
-                                    <li><a href="index.html">Local</a></li>
-                                    <li><a href="index3-horizontalmenu.html">International</a></li>
+                                    <li><a href="local-news.php">Local</a></li>
+                                    <li><a href="international-news.php">International</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>ABOUT</span></a>
                                 <ul class="collapse">
-                                    <li><a href="barchart.html">African Surveyors Connect</a></li>
-                                    <li><a href="linechart.html">COVID-19 Data Center</a></li>
-                                    <li><a href="piechart.html">Contributors</a></li>
+                                    <li><a href="about-asc.php">African Surveyors Connect</a></li>
+                                    <li><a href="about-data-center.php">COVID-19 Data Center</a></li>
+                                    <li><a href="about-contributors.php">Contributors</a></li>
                                 </ul>
                             </li>
-                            <li><a href="invoice.html"><i class="ti-receipt"></i> <span>Suggestion Box</span></a></li>
-							<li><a href="invoice.html"><i class="ti-receipt"></i> <span>Feedback</span></a></li>
-							<li><a href="invoice.html"><i class="ti-receipt"></i> <span>Donate</span></a></li>
+                            <li><a href="feedback.php"><i class="ti-receipt"></i> <span>Feedback</span></a></li>
+							<li><a href="https://www.paynow.co.zw/Payment/Link/?q=c2VhcmNoPWFkbWluJTQwYWZyaWNhbnN1cnZleW9ycy5jby56dyZhbW91bnQ9MC4wMCZyZWZlcmVuY2U9RG9uYXRpb24mbD0w"><i class="ti-receipt"></i> <span>Donate</span></a></li>
                          
                         </ul>
                     </nav>
@@ -93,10 +92,7 @@
                             <span></span>
                         </div>
                         <div class="search-box pull-left">
-                            <form action="#">
-                                <input type="text" name="search" placeholder="Search..." required>
-                                <i class="ti-search"></i>
-                            </form>
+                           
                         </div>
                     </div>
                     <!-- profile info & task notification -->
@@ -112,52 +108,17 @@
                                     <span class="notify-title">What's New?</span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
+                                            <div class="notify-thumb"><i class="ti-mobile btn-info"></i></div>
                                             <div class="notify-text">
-                                                <p>You have Changed Your Password</p>
-                                                <span>Just Now</span>
+                                                <p>Mobile Responisiveness - Any gadget can now be able to view the statistical data</p>
+                                                
                                             </div>
                                         </a>
                                         <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
+                                            <div class="notify-thumb"><i class="ti-bar-chart btn-info"></i></div>
                                             <div class="notify-text">
-                                                <p>New Commetns On Post</p>
-                                                <span>30 Seconds ago</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-key btn-primary"></i></div>
-                                            <div class="notify-text">
-                                                <p>Some special like you</p>
-                                                <span>Just Now</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-comments-smiley btn-info"></i></div>
-                                            <div class="notify-text">
-                                                <p>New Commetns On Post</p>
-                                                <span>30 Seconds ago</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-key btn-primary"></i></div>
-                                            <div class="notify-text">
-                                                <p>Some special like you</p>
-                                                <span>Just Now</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
-                                            <div class="notify-text">
-                                                <p>You have Changed Your Password</p>
-                                                <span>Just Now</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="notify-item">
-                                            <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
-                                            <div class="notify-text">
-                                                <p>You have Changed Your Password</p>
-                                                <span>Just Now</span>
+                                                <p>Daily Positive Rates - ( Positive Cases per day / Total PCR Tests per day ) * 100</p>
+                                                
                                             </div>
                                         </a>
                                     </div>
@@ -168,3 +129,23 @@
                 </div>
             </div>
             <!-- header area end -->
+                <!-- page title area start -->
+            <div class="page-title-area">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        
+                    </div>
+                    <div class="col-sm-6 clearfix">
+                        <div class="user-profile pull-right">
+                            <img class="avatar user-thumb" src="https://healthtimes.co.zw/wp-content/uploads/2020/01/1800x1200_coronavirus_1.jpg" alt="avatar">
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">COVID-19 Data Center <i class="fa fa-angle-down"></i></h4>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">What is COVID-19?</a>
+                                <a class="dropdown-item" href="#">Preventive Measures</a>
+                                <a class="dropdown-item" href="#">In case of Emergency</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- page title area end -->

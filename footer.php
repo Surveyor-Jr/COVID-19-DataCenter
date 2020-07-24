@@ -1,7 +1,7 @@
 <!-- footer area start-->
 <footer>
             <div class="footer-area">
-                <p>&copy; 2020. All rights reserved. <br>Proudly brought to you by <a href="https://africansurveyors.net/">African Surveyors Connect</a>.</p>
+                <p>&copy; 2020. All rights reserved. <br>Proudly brought to you by <br> <a href="https://africansurveyors.net/">African Surveyors Connect</a>.</p>
             </div>
         </footer>
         <!-- footer area end-->
