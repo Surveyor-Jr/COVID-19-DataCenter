@@ -28,6 +28,15 @@ Anyone is free to use the Dashboards and data guided under the <a href="LICENSE"
 The information displayed before you is based on the COVID-19 Statistical data obtained from <strong>John's Hopkins Medical School</strong> & <strong>Ministry of Health & Childcare</strong> Updates in Zimbabwe that are published every evening on their respective platforms. 
 
 
-### LIVE DESKTOP DASHBOARD
-<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/8ef907d2658c44c6a143819aa7979b20" width="100%" height="500">
-                        
+### Codes for Embedding
+This is the layout that I use for embedding into Websites (Including Wordpress Hosted sites) and it really works out for me. Hopefully it will work out for you too.
+
+<code><embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/4745c06d54ba4ec0b40d4644fc896127" width="100%" height="400">
+		<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="200">
+		<sup>Click on the expand icon at the top right corner of each tab to expand the visual</sup>
+		<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="200">
+		<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/5ecd4b8c3d464dc299a31e95a43027ef" width="100%" height="500">
+		<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c9eb8eba3376404c8096356cd4595a79" width="100%" height="500">
+		<embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/286d619e84e948b1a28ba6b3a055557f" width="100%" height="500">
+</code>
+
