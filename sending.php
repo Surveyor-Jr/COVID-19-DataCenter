@@ -19,12 +19,12 @@
     </div>';
     echo '<script>
             setTimeout(function () {
-                window.location.href="index.php";echo "Error: " . $sql . "<br>" . $conn->error;
+                window.location.href="index.php";
             }, 10000);
             </script>';
         
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        //echo "Error: " . $sql . "<br>" . $conn->error;
         echo '<div class="alert alert-danger" role="alert" style="text-align:center;">
         <h4 class="alert-heading">ERROR</h4>
         An unexpected Error occured. Please try again in <span id="countdown">10</span> seconds.

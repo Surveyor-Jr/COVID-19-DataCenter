@@ -1,4 +1,8 @@
     <?php require_once('header.php');?> 
+
+    <div class="alert alert-info" role="alert" style="text-align:center;">
+    The information displayed before you is based on the COVID-19 Statistical data obtained from <strong>John's Hopkins Medical School</strong> & <strong>Ministry of Health & Childcare</strong> Updates in Zimbabwe that are published every evening on their respective platforms. 
+    </div>
            
             <div class="main-content-inner">
                 
