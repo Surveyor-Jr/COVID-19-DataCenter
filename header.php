@@ -6,7 +6,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>COVID-19 Data Ccenter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <meta name="description" content="Keeping the community updated with the current trends of the Corona-virus in Zimbabwe. ">
+    <meta name="keyword" content="COVID-19, Zimbabwe COVID-19">
+    <link rel="shortcut icon" type="image/png" href="images/ASC-COVID.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
@@ -39,7 +41,7 @@
         <div class="sidebar-menu">
             <div class="sidebar-header">
                 <div class="logo">
-                    <a href="index.php"><img src="images/logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="images/ASC-COVID.png" alt="logo"></a>
                 </div>
             </div>
             <div class="main-menu">
@@ -51,7 +53,7 @@
                                 <ul class="collapse">
                                     <li class="active"><a href="zimbabwe.php">Zimbabwe</a></li>
                                     <li><a href="global.php">Global</a></li>
-                                    <li><a href="trending.php">Trending</a></li>
+                                    <!--<li><a href="trending.php">Trending</a></li>-->
                                 </ul>
                             </li>
                             <li>
@@ -59,19 +61,20 @@
                                     </span></a>
                                 <ul class="collapse">
                                     <li><a href="local-news.php">Local</a></li>
-                                    <li><a href="international-news.php">International</a></li>
+                                    <li><a href="https://www.bbc.com/news/coronavirus" target="_blank">International</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>ABOUT</span></a>
                                 <ul class="collapse">
-                                    <li><a href="about-asc.php">African Surveyors Connect</a></li>
-                                    <li><a href="about-data-center.php">COVID-19 Data Center</a></li>
+                                    <li><a href="http://africansurveyors.net/about-us/" target="_blank">African Surveyors Connect</a></li>
+                                    <li><a href="#">COVID-19 Data Center</a></li>
                                     <li><a href="about-contributors.php">Contributors</a></li>
                                 </ul>
                             </li>
                             <li><a href="feedback.php"><i class="ti-receipt"></i> <span>Feedback</span></a></li>
 							<li><a href="https://www.paynow.co.zw/Payment/Link/?q=c2VhcmNoPWFkbWluJTQwYWZyaWNhbnN1cnZleW9ycy5jby56dyZhbW91bnQ9MC4wMCZyZWZlcmVuY2U9RG9uYXRpb24mbD0w"><i class="ti-receipt"></i> <span>Donate</span></a></li>
+                            <li><a href="license.php"><i class="ti-receipt"></i> <span>License & Contribution</span></a></li>
                          
                         </ul>
                     </nav>
