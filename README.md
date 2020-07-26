@@ -30,6 +30,8 @@ The information displayed before you is based on the COVID-19 Statistical data o
 
 ### Codes for Embedding
 This is the layout that I use for embedding into Websites (Including Wordpress Hosted sites) and it really works out for me. Hopefully it will work out for you too.
+<br>
+I made use of the <code><embed></code> tag. So make sure to add the <code>tag</code> before the <code>src</code> attribute
 
 <code> src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/4745c06d54ba4ec0b40d4644fc896127" width="100%" height="400"><br>
 		src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="200"><br>		
@@ -39,3 +41,10 @@ This is the layout that I use for embedding into Websites (Including Wordpress H
 		 src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/286d619e84e948b1a28ba6b3a055557f" width="100%" height="500">
 </code>
 
+### Live Application
+You can access the live project online on <a href="http://covid19.africansurveyors.net/">African Surveyors Connect COVID-19 Data Center</a>
+
+### Social Media
+Follow me on Social Media and Lets engage and discuss more about Epidemological GIS Applications
+<br>
+<a href="https://facebook.com/kumbiraimatingo"><img src="https://findicons.com/files/icons/2425/firecracker/36/facebook.png"></a><a href="https://twitter.com/surveyor_jr"><img src="https://findicons.com/files/icons/2192/flavour_extended/48/twitter_standing.png"></a>
