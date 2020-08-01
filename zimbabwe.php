@@ -6,11 +6,12 @@
            
             <div class="main-content-inner">
                 
-                <!-- dashboard item area start -->
+                <!-- Maps of the virus Cumulative Cases, Active Cases, Deaths by Province-->
                 <div class="card mt-5">
                     <div class="card-body">
                         <div class="d-flex justify-content-between mb-5">
-                            <p class="header-title mb-0">---</p>
+                            <p class="header-title mb-0">Situation Maps</p>
+                            <sub>Tap or Scroll to see the next map.</sub>
                             
                         </div>
                         <div>
@@ -19,17 +20,31 @@
                         </div>
                     </div>
                 </div>
-                <!-- dashboard item area end -->
-                <!-- dashboard item area start -->
-                <div class="card mt-5">
+                <!-- Maps Category ends here -->
+                 <!-- Latest Records in the last 24 hours-->
+                 <div class="card mt-5">
                     <div class="card-body">
                         <div class="d-flex justify-content-between mb-5">
-                            <p class="header-title mb-0">---</p>
+                            <p class="header-title mb-0">Latest Trends within the last 24 hours</p>
                             
                         </div>
                         <div>
                             <!-- dashboard item here -->
-                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="200">
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/17fcf0eef3684b80ae32fb23b5c9b3ce" width="100%" height="300">
+                        </div>
+                    </div>
+                </div>
+                <!-- Latest records in the last 24hrs end -->
+                <!-- dashboard item area start -->
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-5">
+                            <p class="header-title mb-0">Cumulative Statistics</p>
+                            
+                        </div>
+                        <div>
+                            <!-- dashboard item here -->
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="300">
                         </div>
                     </div>
                 </div>
@@ -41,12 +56,12 @@
                 <div class="card mt-5">
                     <div class="card-body">
                         <div class="d-flex justify-content-between mb-5">
-                            <p class="header-title mb-0">---</p>
+                            <p class="header-title mb-0">Ratios</p>
                             
                         </div>
                         <div>
                             <!-- dashboard item here -->
-                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="200">
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="400">
                         </div>
                     </div>
                 </div>
@@ -97,6 +112,34 @@
                     </div>
                     <!-- team member area end -->
                 </div>
+                <!-- dashboard item area start -->
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-5">
+                            <p class="header-title mb-0">This Week</p>
+                            
+                        </div>
+                        <div>
+                            <!-- dashboard item here -->
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/17bf9a11c7024660a5816fb4a807ec49" width="100%" height="500">
+                        </div>
+                    </div>
+                </div>
+                <!-- dashboard item area end -->
+                <!-- dashboard item area start -->
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-5">
+                            <p class="header-title mb-0">----</p>
+                            
+                        </div>
+                        <div>
+                            <!-- dashboard item here -->
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/ac1f72025df944df8151298774b780b3" width="100%" height="550">
+                        </div>
+                    </div>
+                </div>
+                <!-- dashboard item area end -->
             </div>
         </div>
         <!-- main content area end -->
