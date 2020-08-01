@@ -1,6 +1,7 @@
     <?php require('header.php');?>
-        
-            <div class="main-content-inner">
+
+
+<div class="main-content-inner">
 
             <div class="card-area">
             <div class="row">
@@ -104,7 +105,7 @@
                                     </div>
                                 <div class="card-body">
                                     <h5 class="title">Symptoms.</h5>
-                                    <p class="card-text">COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.
+                                    <p class="card-text">COVID-19 affects different people in different ways. Most infected people will develop mild....
                                     </p>
                                     <button type="button" class="btn btn-primary btn-flat btn-lg mt-3" data-toggle="modal" data-target="#symptoms">Read more...</button>
                                 <!-- Modal -->
@@ -158,17 +159,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
+                    </div>
+                    
+               
 
-             </div>
+           
                 <!-- overview area start -->
+                <div class="main-content-inner">
+                <div class="card-area">
                 <div class="row">
                     <div class="col-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h4 class="header-title mb-0">World Health Organisation</h4>
-                                    <sup class="custome-select border-0 pr-3">Latest Tweets</sup>
+                                    
                                      </sup>
                                 </div>
                                 <div>
@@ -180,8 +186,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 coin-distribution">
-                        <div class="card h-full">
+                    <div class="col-6">
+                        <div class="card">
                             <div class="card-body">
                                 <h4 class="header-title mb-0">Ministry of Health & Childcare Zimbabwe</h4>
                                 <div>
@@ -197,12 +203,16 @@
                 <!-- overview area end -->
                 
                 </div>
-                <!-- row area end -->
+            </div>
+         </div>
+</div>
+            
+            
                
                    
-                </div>
-                <!-- row area start-->
-            </div>
-        </div>
+              
+        
+      
+    
         <!-- main content area end -->
         <?php require_once('footer.php');?>
