@@ -31,9 +31,9 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- preloader area start -->
-    <div id="preloader">
+    <!--<div id="preloader">
         <div class="loader"></div>
-    </div>
+    </div>-->
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
@@ -124,6 +124,20 @@
                                                 
                                             </div>
                                         </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-bar-chart btn-info"></i></div>
+                                            <div class="notify-text">
+                                                <p>Weekly Trends for the New Cases. Displaying graph of the new cases for the current week</p>
+                                                
+                                            </div>
+                                        </a>
+                                        <a href="#" class="notify-item">
+                                            <div class="notify-thumb"><i class="ti-bar-chart btn-info"></i></div>
+                                            <div class="notify-text">
+                                                <p>Added testing Statistics. - You can now view how many people have been tested overally and in the last 24 hours</p>
+                                                
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
 							</li>
@@ -143,12 +157,44 @@
                             <img class="avatar user-thumb" src="https://healthtimes.co.zw/wp-content/uploads/2020/01/1800x1200_coronavirus_1.jpg" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown">COVID-19 Data Center <i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">What is COVID-19?</a>
-                                <a class="dropdown-item" href="#">Preventive Measures</a>
-                                <a class="dropdown-item" href="#">In case of Emergency</a>
+                                <a class="dropdown-item" href="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/8ef907d2658c44c6a143819aa7979b20">Full Desktop Dashoard</a>
+                                <a class="dropdown-item" href="#">Mobile Dashboard</a>
+                                <a class="dropdown-item" href="https://www.paynow.co.zw/Payment/Link/?q=c2VhcmNoPWFkbWluJTQwYWZyaWNhbnN1cnZleW9ycy5jby56dyZhbW91bnQ9MC4wMCZyZWZlcmVuY2U9RG9uYXRpb24mbD0w">Donate</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- page title area end -->
+             <!-- basic modal start -->
+     <div style="text-align:center;">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger btn-flat btn-lg mt-3" data-toggle="modal" data-target="#contact">EMERGENCY CONTACT INFORMATION</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="contact">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Emergency Contact Details</h5>
+                                                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h4 style="color:red;">COVID-19 EMERGENCY HOT-LINE</h4>
+                                                <hr>
+                                                <h1 style="text-align:center;">2-0-1-9</h1><p>OR</p><h1 style="text-align:center;">2-0-2-3</h1>
+
+                                                <p>Call now if you suspect or have been in contact anyone who tested positive or know anymore who has the symptoms. Help stop the spread now</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <a href="tel:2019"><button type="button" class="btn btn-primary">Call Now</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+                    <!-- basic modal end -->
