@@ -31,7 +31,7 @@ The information displayed before you is based on the COVID-19 Statistical data o
 ### Codes for Embedding
 This is the layout that I use for embedding into Websites (Including Wordpress Hosted sites) and it really works out for me. Hopefully it will work out for you too.
 <br>
-I made use of the <code><embed></code> tag. So make sure to add the <code>tag</code> before the <code>src</code> attribute
+I made use of the <code>embed</code> tag. So make sure to add the <code>tag</code> before the <code>src</code> attribute
 
 <code> src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/4745c06d54ba4ec0b40d4644fc896127" width="100%" height="400"><br>
 		src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="200"><br>		
