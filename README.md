@@ -48,3 +48,6 @@ You can access the live project online on <a href="http://covid19.africansurveyo
 Follow me on Social Media and Lets engage and discuss more about Epidemological GIS Applications
 <br>
 <a href="https://facebook.com/kumbiraimatingo"><img src="https://findicons.com/files/icons/2425/firecracker/36/facebook.png"></a><a href="https://twitter.com/surveyor_jr"><img src="https://findicons.com/files/icons/2192/flavour_extended/48/twitter_standing.png"></a>
+
+#### Nationality Credits
+[![Made in ZWE](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/flag-for-zimbabwe_1f1ff-1f1fc.png)](https://github.com/iamngoni/made-in-zwe)
