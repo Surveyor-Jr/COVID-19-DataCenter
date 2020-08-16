@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Google AdSense Code-->
+    <script data-ad-client="ca-pub-1726892928324403" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
 </head>
 
 <body>
@@ -31,9 +34,9 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- preloader area start -->
-    <!--<div id="preloader">
+    <div id="preloader">
         <div class="loader"></div>
-    </div>-->
+    </div>
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
@@ -197,4 +200,16 @@
                             </div>
                         </div>
     </div>
+    <!-- In page google AdSense Code-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- COVID-19 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1726892928324403"
+     data-ad-slot="1231144516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                     <!-- basic modal end -->
