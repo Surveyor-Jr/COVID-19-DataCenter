@@ -4,21 +4,7 @@ COVID-19 Statistical Data center web platform for Zimbabwe. All Statistical data
 ## Contribution
 Below are the links which contains the Desktop Dashboard (live & realtime) and the Feature Layers that feed the Dashboard with data. Most of the work here has been done using <a href="https://arcgis.com/">ArcGIS Online</a>. 
 <br><br>
-<ul class="list-group list-group-horizontal" style="text-align:center;">
-											<!--tips: use .list-group-horizontal-{sm|md|lg|xl} responsive variant to make a list group horizontal starting at that breakpoint’s min-width-->
-											<li class="list-group-item ">Desktop Dashboard<br><br>
-											<a href="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/8ef907d2658c44c6a143819aa7979b20">https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/8ef907d2658c44c6a143819aa7979b20</a>
-										</li>
-											<li class="list-group-item">Cases By Province Feature Hosted Layer<br><br>
-											<a href="https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/Case_By_Province/FeatureServer">https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/Case_By_Province/FeatureServer</a>
-										</li>
-											<li class="list-group-item">Cumulative Cases Table<br><br>
-											<a href="https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/cumulative_cases/FeatureServer">https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/cumulative_cases/FeatureServer</a>
-										</li>
-											<li class="list-group-item">Daily Testing Feature Layer<br><br>
-											<a href="https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/Daily_Testing_updates/FeatureServer">https://services9.arcgis.com/DnERH4rcjw7NU6lv/arcgis/rest/services/Daily_Testing_updates/FeatureServer</a>
-										</li>
-</ul> 
+
 
 ## Terms & Conditions of use
 Anyone is free to use the Dashboards and data guided under the <a href="LICENSE">Creative Commons License</a> and for commercial use of these Dashboards one is supposed to give credit of the original source in the format:
@@ -32,14 +18,17 @@ The information displayed before you is based on the COVID-19 Statistical data o
 This is the layout that I use for embedding into Websites (Including Wordpress Hosted sites) and it really works out for me. Hopefully it will work out for you too.
 <br>
 I made use of the <code>embed</code> tag. So make sure to add the <code>tag</code> before the <code>src</code> attribute
+<br>
 
-<code> src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/4745c06d54ba4ec0b40d4644fc896127" width="100%" height="400"><br>
-		src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c22d2da5905143c3abcbf4451e8ebc13" width="100%" height="200"><br>		
-	   src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="200"><br>
-		 src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/5ecd4b8c3d464dc299a31e95a43027ef" width="100%" height="500">
-	src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/c9eb8eba3376404c8096356cd4595a79" width="100%" height="500">
-		 src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/286d619e84e948b1a28ba6b3a055557f" width="100%" height="500">
-</code>
+
+<b>Embed our dashboard into your webpage:</b>
+
+
+```html
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="COVID-19" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/8ef907d2658c44c6a143819aa7979b20"></iframe></div>
+```
+
+
 
 ### Live Application
 You can access the live project online on <a href="http://covid19.africansurveyors.net/">African Surveyors Connect COVID-19 Data Center</a>
