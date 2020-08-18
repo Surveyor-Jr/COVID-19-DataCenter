@@ -59,8 +59,17 @@
                                     <!--<li><a href="trending.php">Trending</a></li>-->
                                 </ul>
                             </li>
+                            <!-- Isolation/ Treatment & Quarantine Center Finder Tools --> 
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>NEWS
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>FINDERS</span></a>
+                                <ul class="collapse">
+                                    <li><a href="isolation.php">Isolation / Treatment Centers</a></li>
+                                    <li><a href="quarantine.php">Quarantine Centers</a></li>
+                                    <li><a href="testing.php">Testing Centers</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-location"></i><span>NEWS
                                     </span></a>
                                 <ul class="collapse">
                                     <li><a href="local-news.php">Local</a></li>
@@ -123,7 +132,7 @@
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb"><i class="ti-bar-chart btn-info"></i></div>
                                             <div class="notify-text">
-                                                <p>Daily Positive Rates - ( Positive Cases per day / Total PCR Tests per day ) * 100</p>
+                                                <p>Adding Isolation & Quarantine Center Finder tool</p>
                                                 
                                             </div>
                                         </a>
