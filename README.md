@@ -35,6 +35,11 @@ The information displayed before you is based on the COVID-19 Statistical data o
 ### Live Application
 You can access the live project online on <a href="http://covid19.africansurveyors.net/">African Surveyors Connect COVID-19 Data Center</a>
 
+
+### Goals & Objectives
+<li>Provide all citizens of Zimbabwe with accessible COVID-19 Statistics anywhere and anytime</li>
+<li>Add news API's to provide COVID-19 related news on the live platform</li>
+
 ### Social Media
 Follow me on Social Media and Lets engage and discuss more about Epidemological GIS Applications
 <br>
