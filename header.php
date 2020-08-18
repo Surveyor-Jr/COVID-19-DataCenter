@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>COVID-19 Data Ccenter</title>
+    <title>COVID-19 Data Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Keeping the community updated with the current trends of the Corona-virus in Zimbabwe. ">
     <meta name="keyword" content="COVID-19, Zimbabwe COVID-19">
