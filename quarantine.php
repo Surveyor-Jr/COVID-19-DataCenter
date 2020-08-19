@@ -1,12 +1,12 @@
 <?php require_once('header.php');?>
 
-						<div class="col-12">
+<div class="col-12">
                             <div class="card card-bordered">
-                               <p>This finder tool is still being developed therefore you might not find any Isolation Centers in the province that you are currently in. Please bare with us as we are still waiting for more updates on the confirmed locations <i class="fa fa-location-arrow" aria-hidden="true"></i></p>
+                               <p>This finder tool is still being developed therefore you might not find any Quarantine Centers in the province that you are currently in. Please bare with us as we are still waiting for more updates on the confirmed locations <i class="fa fa-location-arrow" aria-hidden="true"></i></p>
                                 <div class="card-body">
-								<iframe width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/0DazzP"></iframe>
-                                    
-                                </div>
+<iframe width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen src="https://arcg.is/PyDDr"></iframe>
+
+	</div>
                             </div>
                         </div>
 						<br>
@@ -18,6 +18,5 @@
                                 </div>
                             </div>
                         </div>
-						
 
-<?php require_once('footer.php');
+<?php require_once('footer.php');?>
