@@ -1,0 +1,25 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/y75d1904kr5i/public_html/covid19.africansurveyors.net/
+- /bin/cp about-asc.php $DEPLOYPATH
+- /bin/cp about-contributors.php $DEPLOYPATH
+- /bin/cp about-data-center.php $DEPLOYPATH
+- /bin/cp feedback.php $DEPLOYPATH
+- /bin/cp footer.php $DEPLOYPATH
+- /bin/cp global.php $DEPLOYPATH
+- /bin/cp header.php $DEPLOYPATH
+- /bin/cp index.php $DEPLOYPATH
+- /bin/cp international-news.php $DEPLOYPATH
+- /bin/cp isolation.php $DEPLOYPATH
+- /bin/cp license.php $DEPLOYPATH
+- /bin/cp local-news.php $DEPLOYPATH
+- /bin/cp quarantine.php $DEPLOYPATH
+- /bin/cp sending.php $DEPLOYPATH
+- /bin/cp testing.php $DEPLOYPATH
+- /bin/cp zimbabwe.php $DEPLOYPATH
+- /bin/cp -R assets $DEPLOYPATH
+- /bin/cp -R config $DEPLOYPATH
+- /bin/cp -R images $DEPLOYPATH
+- /bin/cp -R includes $DEPLOYPATH
+

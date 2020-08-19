@@ -1,16 +1,16 @@
 <?php
-
+/*
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "covid19";
-
-/*
-$servername = "localhost";
-$username = "fzhzf_fzhzfxpv";
-$password = "nkm10636";
-$dbname = "fzhzfxpv_african_surveyor_connect";
 */
+
+$servername = "localhost";
+$username = "y75d1904kr5i";
+$password = "Nkm*10636";
+$dbname = "survey-apps";
+
 
 //create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
