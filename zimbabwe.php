@@ -61,7 +61,7 @@
                         </div>
                         <div>
                             <!-- dashboard item here -->
-                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="400">
+                            <embed type="text/html" src="https://surveyor-jr.maps.arcgis.com/apps/opsdashboard/index.html#/83b9ddb28b9f4355afab7b2a187b4f16" width="100%" height="500">
                         </div>
                     </div>
                 </div>
@@ -140,6 +140,9 @@
                     </div>
                 </div>
                 <!-- dashboard item area end -->
+                <div class="alert alert-info" role="alert">
+                You can view the full sized official Dashboard by the <a href="https://experience.arcgis.com/experience/dcb93cc7fe894ab79417852b3290c20b" target="_blank" >Ministry of Health & Childcare</a>.
+                </div>
             </div>
         </div>
         <!-- main content area end -->
