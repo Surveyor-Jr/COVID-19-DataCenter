@@ -209,9 +209,9 @@
                             </div>
                         </div>
     </div>
-    <!-- In page google AdSense Code-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- COVID-19 -->
+    <!-- In page google AdSense Code--><!--
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!-- COVID-19 --><!--
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-1726892928324403"
@@ -220,5 +220,5 @@
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script>-->
                     <!-- basic modal end -->
