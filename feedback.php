@@ -17,7 +17,7 @@
                         </div>
                         <div>
                             <!-- dashboard item here -->
-                            <embed type="text/html" src="https://arcg.is/1vSSi41" width="100%" height="1500">
+                            <embed type="text/html" src="https://arcg.is/1vSSi41" width="100%" height="1000">
                         </div>
                     </div>
                 </div>
