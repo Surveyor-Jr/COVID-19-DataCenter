@@ -27,6 +27,16 @@
     <!-- Google AdSense Code-->
     <script data-ad-client="ca-pub-1726892928324403" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
+    <!-- DialogFlow Bot Integration -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https://storage.googleapis.com/cloudprod-apiai/734e0aab-9f0f-4a9c-a600-0a5780d79555_x.png"
+  intent="WELCOME"
+  chat-title="African-Surveyors-Connect"
+  agent-id="c353d3f0-98ae-48bf-b3c3-98fcabfa1e85"
+  language-code="en"
+></df-messenger>
+<!-- DialogFlow Bot End --> 
 </head>
 
 <body>
@@ -209,9 +219,9 @@
                             </div>
                         </div>
     </div>
-    <!-- In page google AdSense Code--><!--
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-<!-- COVID-19 --><!--
+    <!-- In page google AdSense Code-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- COVID-19 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-1726892928324403"
@@ -220,5 +230,5 @@
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>-->
+</script>
                     <!-- basic modal end -->
